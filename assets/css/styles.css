@@ -1,0 +1,47 @@
+@font-face {
+    font-family: PlusJakartaSans;
+    src: url(../fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+html,
+body {
+    min-height: 600px;
+}
+
+body {
+    background: #F5F6F7;
+}
+
+.logo {
+    width: 300px;
+}
+
+h1 {
+    font-family: 'PlusJakartaSans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h6 {
+    font-family: 'PlusJakartaSans', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+#main {
+    height: 100vh;
+    min-height: 800px;
+    background-image: url(../image/background-circle.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% -50vh;
+}
+
+@media (max-width: 767.98px) {
+    #main {
+        background-image: url(../image/background-circle.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% -50vh;
+    }
+}
